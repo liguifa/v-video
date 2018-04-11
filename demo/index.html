@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.bootcss.com/vue/2.5.17-beta.0/vue.min.js"></script>
+    <script src="../dist/main.bundle.js"></script>
+    <style>
+        html,
+        body,
+        #app {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+
+        .pause-ad {
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <!-- :pause-ad="{url:'https://liguifa.github.io',image:'http://scimg.jb51.net/allimg/151023/13-151023120259524.jpg'" -->
+        <v-video src="http://img.ksbbs.com/asset/Mon_1605/25d705200a4eab4.mp4" 
+            autoplay preload></v-video>
+    </div>
+</body>
+
+</html>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+
+        },
+        components: {
+            "v-video": VVideo
+        }
+    })
+</script>
