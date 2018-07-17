@@ -6,7 +6,7 @@
 
 ## 使用
 
-> <v-video src="http://img.ksbbs.com/asset/Mon_1605/25d705200a4eab4.mp4" autoplay preload></v-video>｀
+> <xmp><v-video src="http://img.ksbbs.com/asset/Mon_1605/25d705200a4eab4.mp4" autoplay preload></v-video></xmp>
 
 ## demo
 [https://liguifa.github.io/v-video/](https://liguifa.github.io/v-video/)
