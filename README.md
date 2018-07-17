@@ -1,2 +1,10 @@
-##v-video
-Ò»¸öÆ¯ÁÁµÄÊÓÆµ²¥·ÅÆ÷ÂÖ×Ó
+# ä¸€ä¸ªæ¼‚äº®çš„è§†é¢‘æ’­æ”¾å™¨è½®å­
+
+## å®‰è£…
+`npm install v-video --save`
+
+## ä½¿ç”¨
+ï½€<v-video src="http://img.ksbbs.com/asset/Mon_1605/25d705200a4eab4.mp4" autoplay preload></v-video>ï½€
+
+## demo
+[https://liguifa.github.io/v-video/](https://liguifa.github.io/v-video/)
