@@ -3,7 +3,7 @@
 ## 安装
 
 ```html
-npm install v-video --save
+npm install v-video-vue --save
 ```
 
 ## 使用
