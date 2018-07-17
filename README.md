@@ -2,11 +2,15 @@
 
 ## 安装
 
-> `npm install v-video --save`
+```html
+npm install v-video --save
+```
 
 ## 使用
 
-> <xmp><v-video src="http://img.ksbbs.com/asset/Mon_1605/25d705200a4eab4.mp4" autoplay preload></v-video></xmp>
+```html
+<v-video src="http://img.ksbbs.com/asset/Mon_1605/25d705200a4eab4.mp4" autoplay preload></v-video>
+```
 
 ## demo
 [https://liguifa.github.io/v-video/](https://liguifa.github.io/v-video/)
